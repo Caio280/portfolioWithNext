@@ -7,7 +7,10 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-
+/**
+ * CSS default reset.
+ * /
+ 
     ::-webkit-scrollbar {
       width: 8px;
       height: 5px;
@@ -20,7 +23,10 @@ export default createGlobalStyle`
       background: ${({ theme }) => lighten(0.4, theme.primary)};
     }
   }
-
+/**
+ * styling scrollbar.
+ * /
+ 
   body {
     background: ${props => props.theme.background};
     font: 400 1rem 'Montserrat', sans-serif;
@@ -30,19 +36,31 @@ export default createGlobalStyle`
     width: 100%;
     max-width: 100%;
   }
-
+/**
+ *Image default reset for responsiveness. 
+ * /
+ 
   ul {
     list-style: none;
   }
-
+/**
+ * remove bubble from list.
+ * /
+ 
   button {
     cursor: pointer;
   }
-
+/**
+ * Cursor pointer.
+ * /
+ 
   a {
     text-decoration: none;
   }
-
+/**
+ * Do not underline text.
+ * /
+ 
   .container {
     width: 100%;
     margin: 0 auto;
@@ -58,5 +76,8 @@ export default createGlobalStyle`
       padding: 0 2rem;
     }
   }
-
+/**
+ * Class = container to hold the content / responsiveness.
+ * /
+ 
 `;
