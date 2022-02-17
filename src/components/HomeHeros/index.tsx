@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
 import { Container, TextContainer, InfoContainer, CodeItem } from './styles';
 import picture from '../../../assets/eu_copia.png';
 
