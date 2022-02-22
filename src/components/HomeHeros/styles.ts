@@ -88,9 +88,9 @@ export const CodeItem = styled.pre`
   background: ${({ theme }) => theme.gradient};
   padding: 2rem;
   font-family: 'JetBrains Mono', monospace;
-  font-weight: 400;
+  font-weight: 300;
   color: #fff;
-  width: 27.1rem;
+  width: 35rem;
   align-self: flex-start;
   transition: 1s;
 
