@@ -18,8 +18,13 @@ function HomeHeros() {
               Age: <span className="blue"> 23,</span>
             </div>
             <div>
-              Studying:
-              <span className="blue"> Control and Automation Engineering.</span>
+              Studying: 
+              <span className="blue"> 
+              <>
+               {' '}
+                Control and Automation <br /> Engineering.
+              </>
+              </span>
             </div>
             {'\u007D'}
           </CodeItem>
@@ -32,7 +37,7 @@ function HomeHeros() {
               Searching:
               <span className="blue">
                 {' '}
-                An opportunity to improve myself as <br /> a technology
+                An opportunity to improve <br /> myself as a technology
                 professional.
               </span>
             </div>
