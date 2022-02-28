@@ -27,7 +27,7 @@ export const ItemContainer = styled.div`
     margin-top: 2rem;
     padding: 1rem;
     padding-top: 1rem;
-    border-radius: 5px;
+    border-radius: 12px 50px 12px;
     height: 20rem;
     display: flex;
     flex-direction: column;
