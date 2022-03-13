@@ -93,6 +93,7 @@ export const CodeItem = styled.pre`
   width: 24rem;
   align-self: flex-start;
   transition: 1s;
+  border-radius: 30px;
 
   @media (max-width: 1450px) {
     width: 24rem;
